@@ -1,0 +1,3 @@
+# fishcast
+
+Initial repository setup.
