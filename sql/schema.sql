@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS noaa_sst_clean (
+    id BIGSERIAL PRIMARY KEY,
+    time_utc TIMESTAMPTZ NOT NULL,
+    latitude DOUBLE PRECISION NOT NULL,
+    longitude DOUBLE PRECISION NOT NULL,
+    analysed_sst DOUBLE PRECISION NOT NULL
+);
