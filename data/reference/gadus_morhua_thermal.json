@@ -1,0 +1,15 @@
+{
+  "species": "Gadus morhua",
+  "common_name": "Atlantic cod",
+  "fishbase_species_id": 69,
+  "fishbase_summary_url": "https://www.fishbase.se/summary/SpeciesSummary.php?id=69",
+  "retrieved_note": "Confirm TempMin/TempMax/Pref on FishBase Species Summary (Ecology section); replace numbers below if your snapshot differs.",
+  "temperature_c": {
+    "absolute_min": -1.2,
+    "absolute_max": 19.0,
+    "preferred_min": 0.0,
+    "preferred_max": 15.0,
+    "optimal_estimate": 6.0
+  },
+  "label_rule_v1": "y_suitable = 1 iff weekly_mean_sst is in [preferred_min, preferred_max] inclusive; else 0."
+}
